@@ -1,18 +1,17 @@
 # Apache Airflow Contribution Summary
 
 ## About
-This repository serves as a portfolio summarizing my open-source contributions to the [Apache Airflow](https://github.com/apache/airflow) project.  
+This repository provides a summary of my open-source contributions to the [Apache Airflow](https://github.com/apache/airflow) project.  
 My work focuses on improving system reliability, metrics observability, and provider functionality across Airflow’s core and ecosystem.
 
-Through these contributions, I have deepened my understanding of large-scale workflow orchestration, CI/CD pipelines, and open-source collaboration.  
-This experience continues to shape my approach to building scalable, data-driven infrastructure — an area I aim to explore further through graduate study.
+Through these contributions, I gained hands-on experience in large-scale workflow orchestration, distributed systems, and CI/CD automation.  
+This repo documents selected pull requests, improvements, and lessons learned from collaborating with the Airflow community.
 
 ---
 
 ## 🧠 Overview
 - **Contributor:** [Aaron Chen (nailo2c)](https://github.com/nailo2c)
 - **Total Contributions:** 25+ merged PRs across multiple Airflow components
-- **Active Since:** Jan 2025
 - **Key Areas:** Metrics, Deferrable Operators, OAuth2, Provider Enhancements, Documentation, CI/CD Testing
 - **Tech Stack:** Python, SQLAlchemy 2.0, pytest, StatsD, OpenTelemetry, REST APIs
 
@@ -43,17 +42,15 @@ This experience continues to shape my approach to building scalable, data-driven
 
 ---
 
-## 💬 Reflection
-Contributing to Apache Airflow has strengthened my ability to work within large-scale, distributed open-source systems.  
-Through debugging complex workflows, enhancing metrics observability, and coordinating with maintainers,  
-I gained practical experience in **system design, data engineering, and collaborative development**.  
-
-These contributions not only refined my technical depth but also cultivated my skills in mentoring, documentation, and long-term maintainability —  
-qualities I intend to continue developing through the **University of Washington Professional Master’s Program in Computer Science (PMP CS)**.
+## 💡 Key Learnings
+- **Code Quality & Observability:** Learned to integrate metrics, logging, and tracing early in system design.  
+- **Collaboration:** Worked closely with global maintainers to review, refactor, and align changes with Airflow’s release roadmap.  
+- **Testing & CI:** Improved confidence in release readiness by expanding coverage and automating integration tests.  
+- **Open-Source Practice:** Gained practical experience in collaborative software development, communication, and review processes.  
 
 ---
 
 ## 📎 Links
 - **Profile:** [github.com/nailo2c](https://github.com/nailo2c)  
 - **Project:** [Apache Airflow](https://github.com/apache/airflow)  
-- **Selected PRs:** [#52815](https://github.com/apache/airflow/pull/52815), [#53554](https://github.com/apache/airflow/pull/53554), [#52897](https://github.com/apache/airflow/pull/52897)
+- **Selected PRs:** [#53554](https://github.com/apache/airflow/pull/53554), [#52897](https://github.com/apache/airflow/pull/52897), [#52050](https://github.com/apache/airflow/pull/52050)
