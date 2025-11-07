@@ -30,6 +30,7 @@ This repo documents selected pull requests, improvements, and lessons learned fr
 | Documentation | [#46352](https://github.com/apache/airflow/pull/46352) | Updated multiple provider docs with SQLExecuteQueryOperator examples and best practices. | Docs | Merged |
 | Testing | [#51419](https://github.com/apache/airflow/pull/51419) | Improved Airflow-core serialization test coverage (83% → 90%). | Test | Merged |
 | Metrics | [#52815](https://github.com/apache/airflow/pull/52815) | Added new StatsD metric to monitor the number of running DAGs. | Feature | Open |
+| Core | [#57782](https://github.com/apache/airflow/pull/57782) | Fixed a bug where comments in @task.kubernetes decorated tasks caused failures. | Bugfix | Open |
 
 ---
 
