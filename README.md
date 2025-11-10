@@ -21,6 +21,7 @@ This repo documents selected pull requests, improvements, and lessons learned fr
 
 | Area | PR | Description | Type | Status |
 |------|----|--------------|------|--------|
+| Metrics | [#52815](https://github.com/apache/airflow/pull/52815) | Added new StatsD metric to monitor the number of running DAGs. | Feature | Merged |
 | Observability / Auth | [#53554](https://github.com/apache/airflow/pull/53554) | Implemented OAuth2 authentication support for Airflow REST API. | Feature | Merged |
 | CI & Git Integration | [#52897](https://github.com/apache/airflow/pull/52897) | Fixed GitDagBundle behavior inconsistency during dynamic DAG loading. | Bugfix | Merged |
 | Providers | [#52926](https://github.com/apache/airflow/pull/52926) | Enhanced DruidDbApiHook with SSL verification for secure connections. | Feature | Merged |
@@ -29,7 +30,6 @@ This repo documents selected pull requests, improvements, and lessons learned fr
 | Deferrable Sensors | [#52585](https://github.com/apache/airflow/pull/52585) | Fixed HttpSensorTrigger recovery issue in deferrable mode (connection type mismatch). | Bugfix | Merged |
 | Documentation | [#46352](https://github.com/apache/airflow/pull/46352) | Updated multiple provider docs with SQLExecuteQueryOperator examples and best practices. | Docs | Merged |
 | Testing | [#51419](https://github.com/apache/airflow/pull/51419) | Improved Airflow-core serialization test coverage (83% → 90%). | Test | Merged |
-| Metrics | [#52815](https://github.com/apache/airflow/pull/52815) | Added new StatsD metric to monitor the number of running DAGs. | Feature | Open |
 | Core | [#57782](https://github.com/apache/airflow/pull/57782) | Fixed a bug where comments in @task.kubernetes decorated tasks caused failures. | Bugfix | Open |
 
 ---
